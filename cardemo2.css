@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: rgb(231, 229, 227);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8px;
+}
+.header .logo {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav-bar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3;
+}
+.nav-bar a:hover {
+  color: rgb(10, 71, 240);
+}
+.icone {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  height: 40px;
+}
+.icone a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid transparent;
+  transform: rotate(45deg);
+}
+.icone a:hover {
+  border-color: rgb(25, 49, 234);
+}
+.icone a i {
+  transform: rotate(-45deg);
+  font-size: 28px;
+}
+.cocntat {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  padding: 50px 8px 0px;
+}
+.cocntat .car {
+  margin: 20px;
+  width: 630px;
+}
+.car h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.car h3 {
+  color: blue;
+  font-size: 28px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+.car p {
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.car button {
+  width: 115;
+  height: 55;
+  border-radius: 40px;
+  background-color: blue;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.car button:hover {
+  background: transparent;
+}
+.imag {
+  width: 300px;
+  height: 300px;
+
+  position: absolute;
+  top: 50%;
+  right: 300px;
+  display: flex;
+}

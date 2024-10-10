@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: rgb(240, 234, 234);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 100px;
+}
+.logo {
+  font-size: 25px;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 20px;
+  transition: 0.3;
+}
+.navbar a:hover {
+  color: blue;
+}
+.socla-media {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  height: 40px;
+}
+.socla-media a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid transparent;
+  transform: rotate(45deg);
+}
+.socla-media a:hover {
+  border-color: rgb(49, 25, 234);
+}
+.socla-media a i {
+  font-size: 24px;
+  color: rgb(14, 36, 232);
+  transform: rotate(-45deg);
+}
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 8px 0px;
+  overflow: hidden;
+}
+.home-content {
+  max-width: 630px;
+}
+
+.home-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.home-content h3 {
+  font-size: 30px;
+  color: #1743e3;
+}
+.home-content p {
+  font-size: 16px;
+  margin: 15px 0 30px;
+}
+.bu {
+  display: inline-block;
+  padding: 10px 28px;
+  background-color: #1743e3;
+  border: 2px solid #1743e3;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  color: aliceblue;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.bu:hover {
+  background-color: transparent;
+  color: #153cd7;
+}
+.home-img {
+  position: relative;
+
+  width: 450px;
+  height: 450px;
+  transform: rotate(45deg);
+}
+.home-img .rabu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 25px solid #1743e3;
+}
+.home-img .rabu img {
+  position: absolute;
+  top: 150px;
+  left: -250;
+  max-width: 750px;
+  transform: rotate(-45deg);
+}

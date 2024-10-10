@@ -1,0 +1,117 @@
+body {
+  background-image: url(image/br.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#main {
+  text-align: center;
+  width: 1000px;
+  height: 600px;
+
+  margin: 200px;
+}
+#img {
+  background-image: url(image/pic10.jpg);
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 150px;
+  width: 450px;
+  height: 400px;
+  margin-top: 200px;
+  margin-left: 50%;
+}
+#h {
+  text-align: left;
+
+  width: 100%;
+  border-bottom: 7px red solid;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.wh {
+  width: 60%;
+  height: 40px;
+  text-align: left;
+}
+#Proin {
+  text-align: left;
+}
+h2 {
+  font-size: 40px;
+  color: rgb(7, 5, 5);
+}
+p {
+  color: rgb(7, 6, 6);
+  font-style: inherit;
+  vertical-align: baseline;
+  font-size: 20px;
+}
+button {
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: rgba(128, 255, 0, 0);
+  background-color: rgba(250, 235, 215, 0);
+}
+button:hover {
+  background-color: chartreuse;
+}
+button:active {
+  background-color: #3e8e41;
+
+  transform: translateY(4px);
+}
+.porttitor {
+  background-color: blueviolet;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#pr1 {
+  padding-top: 40px;
+  background-color: chartreuse;
+  width: 50%;
+  height: 500px;
+}
+#sit {
+  background-image: url(image/profile-image.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(245, 245, 220, 0);
+  text-align: center;
+  margin-left: 25%;
+}
+#button {
+  font-size: 20px;
+  width: 100px;
+  height: 60px;
+  border-color: aqua;
+}
+#pr2 {
+  padding-top: 40px;
+  background-color: chartreuse;
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  left: 695px;
+  top: 0;
+}
+#feugiat2 {
+  background-image: url(image/sapace.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(245, 245, 220, 0);
+  text-align: center;
+  margin-right: 25%;
+}
+
+#end {
+  margin-top: 50px;
+  padding-top: 50px;
+}
